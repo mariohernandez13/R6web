@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* inicio fuente de texto */
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+/* fin fuente texto */
+
+/* Inicio Navbar */
+/* organizacion y tamaño de elementos */
+.nav-item {
+    margin: 0 0 0 1.5em ;
+}
+
+nav {
+    font-size: 1.4em;
+}
+
+nav img {
+    width: 8em;
+}
+
+/* animaciones links */
+nav a {
+    color: #fc9a45;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fcb045;
+    transition: width .3s;
+}
+
+a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+/* Fin Navbar */
+
+
+/* medias queries  */
+/* dispositivos xs */
+@media (max-width: 576px) {
+
+}
+
+/* dispositivos s */
+@media (min-width: 576px) {
+
+}
+
+/* dispositivos m / tablets */
+@media (min-width: 768px) {
+    
+}
+
+/* dispositivos L */
+@media (min-width: 1713px) {
+
+    /* NavBar */
+    /* nav {
+        font-size: 3rem;
+    }
+
+    nav img {
+        width: 26rem;
+    } */
+
+    /* Final NavBar */
+
+}
