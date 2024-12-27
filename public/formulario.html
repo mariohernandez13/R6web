@@ -15,7 +15,7 @@
 
 <body>
     <!-- Inicio Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <img src="../img/logo.avif" alt="imagen del logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -56,32 +56,249 @@
             </div>
         </div>
     </nav>
-    <!-- Fin Navbar -->
 
 
+    <!-- Contacto -->
+    <div class="container-fluid mb-3 px-4">
+        <div class="row mt-4">
+            <div class="col-12">
+                <!-- Info -->
+                <div class="page-header py-4 mb-5">
+                    <h3 class="header-title">Póngase en contacto con el Líder del
+                        equipo de Rainbow SIX</h3>
+                    <div class="mx-lg-4 header-description">
+                        <p>
+                            Nombre - Mario Hernández Santos
+                        </p>
+                        <p>
+                            Alias - Marito.Dev
+                        </p>
+                        <p>
+                            Mail - mariohesan@gmail.com
+                        </p>
+                        <p><small class="text-bg-warning">&target;Last updated [CONFIDENCIAL]</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Inicio Formulario Contacto -->
-    <form action="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-content-center header-description">
+                <!-- Descripción -->
+                <p>Hola ! soy Mario, estudiante de ingeniería informática. Me considero una persona apasionada
+                    por los videojuegos, especialmente por Rainbow Six Siege, también disfruto mantenerme activo
+                    practicando deportes como fútbol, pádel, gimnasio y natación, que no solo me ayudan a estar en
+                    forma, sino también a liberar energía y conectar con los demás.</p>
+                <p>Me encanta ver películas y sumergirme en nuevas historias, tanto como disfruto la
+                    compañía de los animales. La música ocupa un lugar
+                    importante en mi vida, con un gusto particular por canciones en inglés y las composiciones de
+                    Quevedo, que siempre encuentran su forma de inspirarme.</p>
+                <p>Por último, soy un entusiasta de la tecnología y la programación, especialmente en
+                    lenguajes como C# y assembler, donde encuentro el equilibrio perfecto entre creatividad y lógica
+                    para resolver problemas y crear soluciones innovadoras. Todo esto define mi forma de ser: curiosa,
+                    activa y siempre buscando aprender algo nuevo.</p>
+            </div>
 
-    </form>
-    <!-- Fin Formulario Contacto -->
-
-
-
-    <!-- Inicio Footer -->
-    <footer>
-        <div>
+            <div class="col-md-6 p-4 text-center">
+                <!-- Imagen -->
+                <img src="../img/fotoMario.webp" alt="foto de Marito" class="img-fluid h-100">
+            </div>
 
         </div>
+    </div>
+
+    <!-- Formulario en card -->
+    <div class="container cardForm mx-auto pb-2 ">
+        <div class="card-title text-center pt-3 mt-3">
+            <h3>Formumlario de contacto</h3>
+        </div>
+        <div>
+            <form class="row mt-4 g-3" target="_blank" action="https://www.postman-echo.com/get">
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" name="nombre" placeholder="Nombre" id="inputName4">
+                    <label for="inputName4" class="form-label">Nombre</label>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" name="apellidos" placeholder="Apellidos"
+                        id="inputSureName4">
+                    <label for="inputSureName4" class="form-label">Apellidos</label>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <input type="text" maxlength="9" class="form-control" name="telefono" placeholder="Nº Teléfono"
+                        id="inputNumber4" />
+                    <label for="inputNumber4" class="form-label">Nº teléfono</label>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" name="email" placeholder="Email" id="inputEmail4">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" name="country" placeholder="País" id="inputCountry4">
+                    <label for="inputCountry4" class="form-label">País</label>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" name="city" placeholder="Ciudad" id="inputCity4">
+                    <label for="inputCity4" class="form-label">Ciudad</label>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <select class="form-select" name="seleccion" id="inputSeleccion">
+                        <option selected>Seleccione Función</option>
+                        <option value="1">Anchor</option>
+                        <option value="2">Roamer</option>
+                        <option value="3">Intelligence</option>
+                        <option value="4">Support</option>
+                        <option value="5">Breacher</option>
+                        <option value="6">Entry Fragger</option>
+                    </select>
+                </div>
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" name="mensaje" placeholder="Mensaje" id="inputMensaje4">
+                    <label for="inputMensaje4" class="form-label">Mensaje</label>
+                </div>
+                <div class="col-12 text-center">
+                    <button id="boton-send" type="submit" class="btn btn-outline-success">Alistarse</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Inicio Mapa -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.203434626896!2d-73.59780119999999!3d45.5261116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9197c0a5f8da1%3A0xa2498aab1608c9fc!2sUbisoft%20Montreal!5e0!3m2!1ses!2ses!4v1731858436879!5m2!1ses!2ses"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Album quevedo -->
+    <div class="container col col-12 text-center pt-4 mb-5">
+        <h4>Aquí tiene el último album de Quevedo, por si quiere escuchar alguno de sus nuevos temas </h4>
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/album/3V2ApPxUSquOkjLQU3wmjh?utm_source=generator" width="100%"
+            height="352" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <!-- Xmans Plugin -->
+    <div class="container col col-12 text-center pt-4">
+        <h4>Por último, el equipo de Rainbow tiene un pequeño regalo, especialmente en estas fechas...</h4>
+        <div class="bg-light">
+            <iframe class="container" width="1em" height="600em"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRainbow6Spain%2Fposts%2Fpfbid0qNSAK5bt68iXtqxnvhmyUJpULHyNdZ7BDLEXt5kuu7jnWzcJtxshdqWPx4rBy8Lvl&show_text=true&width=500"
+                width="500" height="590" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+    </div>
+
+    <!-- Inicio footer -->
+    <footer class="pe-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img class="img-fluid" src="../img/logoRainbow6.webp" alt="Rainbow6game">
+                </div>
+
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../index.html"
+                                class="nav-link px-2">Home</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/videojuego.html"
+                                class="nav-link px-2">videojuego</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/galeria.html"
+                                class="nav-link px-2">Galería</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/formulario.html"
+                                class="nav-link px-2">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.playstation.com/es-es/" class="nav-link px-2">PlayStation</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://store.steampowered.com/?l=spanish" class="nav-link px-2">PC</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="https://www.xbox.com/es-ES"
+                                class="nav-link px-2">Xbox</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://luna.amazon.es/home" class="nav-link px-2">Amazon Luna</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.nvidia.com/es-es/geforce-now/" class="nav-link px-2">GeForce NOW</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item mx-2">
+                            <a href="https://www.instagram.com/rainbow6game/" target="_blank" class="instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A" target="_blank"
+                                class="youtube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.twitch.tv/rainbow6" target="_blank" class="twitch">
+                                <i class="bi bi-twitch"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://x.com/rainbow6game" target="_blank" class="twitter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center">© Mario Hdez, S.L. 2024/2025</p>
+        </div>
     </footer>
-    <!-- Fin Footer -->
 
+    <!-- cookie -->
+    <div class="cookie-container" id="barraaceptacion">
+        <div class="cookie-card" id="contenedor-menu">
+            <span class="title">🍪 Cookie </span>
+            <p class="description">El equipo Rainbow utiliza cookies para otrogar la mejor experiencia de navegación.
+                <a href="#"> Lea las políticas de privacidad confidenciales para conocer todos sus derechos</a>.
+            </p>
+            <div class="actions">
+                <button class="pref">
+                    Seleccione sus preferencias
+                </button>
+                <button class="btn btn-outline-info" id="botonCookie">
+                    Aceptar
+                </button>
+            </div>
+        </div>
+    </div>
 
-
+    <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- <script src="js/script.js"></script> -->
+    <script type="text/javascript" src="../js/cookies.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
+
+    <noscript>
+        <p>Su navegador no tiene habilitada la opción de permitir ejecución de código javascript, por favor actívela
+            para poder disfrutar de la web en tu totalidad.</p>
+    </noscript>
 </body>
 
 </html>

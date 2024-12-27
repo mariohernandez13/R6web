@@ -15,7 +15,7 @@
 
 <body>
     <!-- Inicio Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <img src="../img/logo.avif" alt="imagen del logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -56,44 +56,408 @@
             </div>
         </div>
     </nav>
-    <!-- Fin Navbar -->
 
 
-    <!-- foto mapas, explicación juego -->
-    <!-- trailer nueva temporada y clip gameplay -->
-    <!-- enlace a redes sociales -->
-    <main>
-        <section>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="row">
-                        <div class="col">
 
-                        </div>
-                        <div class="col">
-
-                        </div>
+    <!-- explicación Gameplay, armas, proleague... -->
+    <div class="container-fluid mb-3 px-4">
+        <div class="row mt-4">
+            <div class="col-12">
+                <!-- Info -->
+                <div class="page-header py-4 mb-5">
+                    <h3 class="header-title">Gameplay: explicación de las partidas y modos de juego </h3>
+                    <div class="mx-lg-4 header-description">
+                        <p>
+                            En este apartado encontrará información detallada sobre el funcionamiento de las partidas en
+                            Rainbow Six Siege. Desde los modos de juego hasta las mecánicas de destrucción del entorno,
+                            armamento y rangos de habilidad. ¡ Descubre todo lo que necesitas saber para convertirte en
+                            un experto !
+                        </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <!-- Cards Rankeds -->
+        <section>
+            <div class="text-center mt-5">
+                <div class="row">
+                    <h3>Estadísticas y Rangos Competitivos</h3>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 mx-auto">
+                        <ul class="list-unstyled header-description">
+                            <li>Progresión: Los puntos de MMR ganados o perdidos dependen del desempeño individual y del
+                                equipo
+                                contrario.</li>
+                            <li>Distribución Global: Aproximadamente un 60% de los jugadores se encuentran entre Plata y
+                                Oro.
+                            </li>
+                            <li>Reinicios de Temporada: Al final de cada temporada, los rangos se reinician parcialmente
+                                para
+                                reflejar el progreso y recibir las recompensas del rango alcanzado.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="rank-carousel">
+                <div class="carousel-track">
+                    <!-- Cobre -->
+                    <div class="rank-card cobre">
+                        <h3>Cobre</h3>
+                        <ul>
+                            <li>MMR: 0 - 1399</li>
+                            <li>Porcentaje: 5%</li>
+                            <li>Representa a jugadores que están aprendiendo las mecánicas del juego.</li>
+                            <li>Las partidas suelen ser caóticas, con un enfoque poco táctico.</li>
+                        </ul>
+                    </div>
+                    <!-- Bronce -->
+                    <div class="rank-card bronce">
+                        <h3>Bronce</h3>
+                        <ul>
+                            <li>MMR: 1400 - 1899</li>
+                            <li>Porcentaje: 15%</li>
+                            <li>Jugadores novatos que empiezan a comprender los conceptos básicos.</li>
+                            <li>Las estrategias aparecen, pero suelen ser inconsistentes.</li>
+                        </ul>
+                    </div>
+                    <!-- Plata -->
+                    <div class="rank-card plata">
+                        <h3>Plata</h3>
+                        <ul>
+                            <li>MMR: 1900 - 2399</li>
+                            <li>Porcentaje: 20%</li>
+                            <li>Jugadores promedio que aplican estrategias y comunicación básica.</li>
+                            <li>Las partidas son más competitivas, pero aún hay errores comunes.</li>
+                        </ul>
+                    </div>
+                    <!-- Oro -->
+                    <div class="rank-card oro">
+                        <h3>Oro</h3>
+                        <ul>
+                            <li>MMR: 2400 - 2899</li>
+                            <li>Porcentaje: 25%</li>
+                            <li>Jugadores competentes que dominan las mecánicas y estrategias básicas.</li>
+                            <li>Consejo: Perfecciona habilidades de ataque y defensa.</li>
+                        </ul>
+                    </div>
+                    <!-- Platino -->
+                    <div class="rank-card platino">
+                        <h3>Platino</h3>
+                        <ul>
+                            <li>MMR: 2900 - 3399</li>
+                            <li>Porcentaje: 20%</li>
+                            <li>Jugadores hábiles y tácticos con experiencia considerable.</li>
+                            <li>El trabajo en equipo y las estrategias avanzadas son clave aquí.</li>
+                        </ul>
+                    </div>
+                    <!-- Esmeralda -->
+                    <div class="rank-card esmeralda">
+                        <h3>Esmeralda</h3>
+                        <ul>
+                            <li>MMR: 3400 - 3799</li>
+                            <li>Porcentaje: 10%</li>
+                            <li>Jugadores altamente calificados con dominio total del juego.</li>
+                            <li>Partidas organizadas y de alta calidad táctica.</li>
+                        </ul>
+                    </div>
+                    <!-- Diamante -->
+                    <div class="rank-card diamante">
+                        <h3>Diamante</h3>
+                        <ul>
+                            <li>MMR: 3900 - 4399</li>
+                            <li>Porcentaje: 4%</li>
+                            <li>Rango élite para jugadores sobresalientes.</li>
+                            <li>Las partidas son intensas y los errores se castigan severamente.</li>
+                        </ul>
+                    </div>
+                    <!-- Champion -->
+                    <div class="rank-card champion">
+                        <h3>Champion</h3>
+                        <ul>
+                            <li>MMR: 4400+</li>
+                            <li>Porcentaje: 1%</li>
+                            <li>Rango máximo reservado para los mejores jugadores del mundo.</li>
+                            <li>Los jugadores aquí son profesionales o al nivel de la élite mundial.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Explicación mapas -->
+        <section class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Destrucción del Entorno</h3>
+                    <p>Las paredes, techos y suelos destructibles permiten abrir líneas de visión o caminos
+                        alternativos. Puntos de entrada: los atacantes pueden usar puertas, ventanas o crear nuevas
+                        entradas con explosivos. Zonas claves: los mapas tienen objetivos como áreas a defender, rehenes
+                        o bombas, incentivando estrategias defensivas o ofensivas en ubicaciones específicas.</p>
+                    <img src="../img/breach.webp" alt="pared destruida" class="img-fluid">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Armas y Equipamiento</h3>
+                    <p>El arsenal en Rainbow Six Siege es variado y está diseñado para adaptarse a diferentes estilos de
+                        juego, con cada operador teniendo acceso a armas específicas. Entre ellas se incluyen:</p>
+                    <ul>
+                        <li>Fusiles de Asalto: Ideales para enfrentamientos de medio alcance. Por ejemplo, el R4-C de
+                            Ash o el AK-12 de Fuze destacan por su precisión y alta cadencia de disparo.</li>
+                        <li>Subfusiles (SMGs): Como el MP5 de Doc o el Vector .45 ACP de Mira, son excelentes para
+                            combates en espacios cerrados debido a su rápida velocidad de disparo.</li>
+                        <li>Escopetas: Ofrecen un poder destructivo enorme en combate cercano, además de ser útiles para
+                            abrir agujeros en paredes blandas y crear líneas de visión.</li>
+                        <li>Francotiradores: Aunque limitados en número, armas como el OTs-03 de Glaz permiten atacar
+                            desde la distancia con precisión letal.</li>
+                        <li>Armas secundarias: Las pistolas y escopetas compactas complementan las armas principales y
+                            son esenciales en combates rápidos.</li>
+                    </ul>
+                    <p>Además de las armas, los operadores disponen de equipamiento adicional como granadas cegadoras,
+                        explosivos de demolición y cámaras de reconocimiento que enriquecen las estrategias.</p>
+                    <img src="../img/arma.webp" alt="armamento" class="img-fluid">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Modos de Juego</h3>
+                    <p>Bomba: Los atacantes deben localizar y detonar una de las dos bombas en el mapa. Los defensores
+                        deben impedirlo o desactivar el dispositivo si es colocado.</p>
+                    <p>Rehén: Los atacantes intentan rescatar al rehén y llevarlo a un punto de extracción. Los
+                        defensores deben evitarlo sin causar daño al rehén.</p>
+                    <p>Asegurar el Área: Los atacantes intentan capturar un área específica del mapa. Los defensores
+                        deben mantener la zona libre de enemigos.</p>
+                    <p>Estos modos se encuentran en partidas casuales y competitivas, cada uno con reglas que fomentan
+                        una experiencia dinámica y estratégica.</p>
+                    <img src="../img/gamemodes.webp" alt="modos de juego" class="img-fluid">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Rondas</h3>
+                    <p>Una partida típica se divide en rondas con estas características:</p>
+                    <ul>
+                        <li>Fase de Preparación: Los defensores preparan su posición reforzando paredes, colocando
+                            trampas, y organizando su estrategia. Los atacantes utilizan drones para explorar el mapa,
+                            localizar enemigos y objetivos.</li>
+                        <li>Fase de Acción: Los atacantes deben cumplir el objetivo antes de que se acabe el tiempo o
+                            eliminar a todos los defensores. Los defensores, a su vez, deben evitar que los atacantes
+                            logren su objetivo.</li>
+                    </ul>
+                    <p>La duración de cada ronda varía según el modo, pero generalmente oscila entre 2-4 minutos. El
+                        equipo que gane más rondas se lleva la victoria.</p>
+                    <img src="../img/sedax.webp" alt="sedax" class="img-fluid">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Paquetes Alpha y Drops</h3>
+                    <p>Los paquetes Alpha son recompensas que los jugadores pueden ganar después de cada partida. La
+                        probabilidad de recibir un paquete aumenta con cada victoria, y tras obtener uno, la
+                        probabilidad se reinicia. Estos paquetes contienen elementos cosméticos como:</p>
+                    <ul>
+                        <li>Skins de armas: Diseños únicos para personalizar armas.</li>
+                        <li>Amuletos: Pequeños accesorios colgantes para armas.</li>
+                        <li>Trajes para operadores: Skins completas que alteran la apariencia del personaje.</li>
+                    </ul>
+                    <p>Los elementos pueden ser comunes, raros, épicos o legendarios. Además, durante eventos especiales
+                        o colaboraciones, se añaden recompensas temáticas que solo están disponibles por tiempo
+                        limitado.</p>
+                    <img src="../img/alphapacks.webp" alt="armamento" class="img-fluid">
                 </div>
             </div>
         </section>
 
 
 
+        <!-- Videos en cuadrícula -->
+        <section>
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col col-md-6">
+                        <!-- Trailer Season 9 -->
+                        <iframe class="video container" width="1em" height="300em"
+                            src="https://www.youtube.com/embed/hLjEHanGIuI?si=CuYi-6UoQAxdqmoc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col col-md-6">
+                        <!-- Video Top Moments Competitivo -->
+                        <iframe class="video container" width="1em" height="300em"
+                            src="https://www.youtube.com/embed/HT9673D_nkg?si=3AW37DQORO-yaVY3"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6">
+                        <!-- Video Historia -->
+                        <iframe class="video container" width="1em" height="300em"
+                            src="https://www.youtube.com/embed/Atu9yW1yFc4?si=LX_ZpMjjU50vOBKy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col col-md-6">
+                        <!-- Video Caramelo Explicativo -->
+                        <iframe class="video container" width="1em" height="300em"
+                            src="https://www.youtube.com/embed/tw3Ki825zAM?si=yDO52IOS8eldO5wg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
 
-
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Banner de anuncio -->
+    <div id="anuncio" class="fixed-bottom bg-warning p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <p>¡Esta es tu oportunidad! Si deseas obtener el videojuego estás ante una de las mejores ofertas
+                        hasta ahora. <br>
+                        <strong> 19.99</strong><i class="bi bi-currency-dollar"></i>en la tienda oficial de Ubisoft. ¡No
+                        te lo pierdas! <br>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </p>
+                </div>
+                <div class="col-md-3 text-end d-flex justify-content-between justify-content-md-end align-items-center">
+                    <a href="https://store.ubisoft.com/us/tom-clancys-rainbow-six-siege/56c494ad88a7e300458b4d5a.html?lang=en_US"
+                        class="btn btn-primary me-2">
+                        <i class="bi bi-cart-plus"></i> Comprar
+                    </a>
+                    <button id="close-anuncio" class="btn btn-danger">
+                        X
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cookie-container" id="barraaceptacion">
+        <div class="cookie-card" id="contenedor-menu">
+            <span class="title">🍪 Cookie </span>
+            <p class="description">El equipo Rainbow utiliza cookies para otrogar la mejor experiencia de navegación.
+                <a href="#"> Lea las políticas de privacidad confidenciales para conocer todos sus derechos</a>.
+            </p>
+            <div class="actions">
+                <button class="pref">
+                    Seleccione sus preferencias
+                </button>
+                <button class="btn btn-outline-info" id="botonCookie">
+                    Aceptar
+                </button>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Inicio footer -->
-    <footer>
+    <footer class="pe-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img class="img-fluid" src="../img/logoRainbow6.webp" alt="Rainbow6game">
+                </div>
 
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../index.html"
+                                class="nav-link px-2">Home</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/videojuego.html"
+                                class="nav-link px-2">videojuego</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/galeria.html"
+                                class="nav-link px-2">Galería</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/formulario.html"
+                                class="nav-link px-2">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.playstation.com/es-es/" class="nav-link px-2">PlayStation</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://store.steampowered.com/?l=spanish" class="nav-link px-2">PC</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="https://www.xbox.com/es-ES"
+                                class="nav-link px-2">Xbox</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://luna.amazon.es/home" class="nav-link px-2">Amazon Luna</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.nvidia.com/es-es/geforce-now/" class="nav-link px-2">GeForce NOW</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item mx-2">
+                            <a href="https://www.instagram.com/rainbow6game/" target="_blank" class="instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A" target="_blank"
+                                class="youtube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.twitch.tv/rainbow6" target="_blank" class="twitch">
+                                <i class="bi bi-twitch"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://x.com/rainbow6game" target="_blank" class="twitter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center">© Mario Hdez, S.L. 2024/2025</p>
+        </div>
     </footer>
-    <!-- Fin footer -->
 
+    <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- <script src="js/script.js"></script> -->
+    <script type="text/javascript" src="../js/cookies.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <noscript>
+        <p>Su navegador no tiene habilitada la opción de permitir ejecución de código javascript, por favor actívela
+            para poder disfrutar de la web en tu totalidad.</p>
+    </noscript>
 </body>
 
 </html>

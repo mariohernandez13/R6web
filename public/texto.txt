@@ -1,0 +1,76 @@
+Rainbow Six Siege es un shooter táctico basado en equipos, donde la estrategia y la comunicación son esenciales. En cada partida, los jugadores asumen el rol de atacantes o defensores en enfrentamientos por rondas, donde el objetivo varía según el modo de juego.
+------------------------------------
+
+Rondas
+Una partida típica se divide en rondas con estas características:
+
+Fase de Preparación:
+Los defensores preparan su posición reforzando paredes, colocando trampas, y organizando su estrategia.
+Los atacantes utilizan drones para explorar el mapa, localizar enemigos y objetivos.
+Fase de Acción:
+Los atacantes deben cumplir el objetivo antes de que se acabe el tiempo o eliminar a todos los defensores.
+Los defensores, a su vez, deben evitar que los atacantes logren su objetivo.
+La duración de cada ronda varía según el modo, pero generalmente oscila entre 2-4 minutos. El equipo que gane más rondas se lleva la victoria.
+
+-----------------------------
+Mapas
+Los mapas en Rainbow Six Siege están diseñados para favorecer tanto la estrategia como la creatividad. Cada uno es único en su diseño y cuenta con múltiples niveles (subterráneo, planta baja, superior), habitaciones interconectadas, y elementos destructibles. Esto permite que los jugadores utilicen mecánicas como:
+
+Destrucción del entorno: Las paredes, techos y suelos destructibles permiten abrir líneas de visión o caminos alternativos.
+Puntos de entrada: Los atacantes pueden usar puertas, ventanas o crear nuevas entradas con explosivos.
+Zonas claves: Los mapas tienen objetivos como áreas a defender, rehenes o bombas, incentivando estrategias defensivas o ofensivas en ubicaciones específicas.
+
+------------------------------
+Modos de Juego
+Bomba:
+Los atacantes deben localizar y detonar una de las dos bombas en el mapa.
+Los defensores deben impedirlo o desactivar el dispositivo si es colocado.
+Rehén:
+Los atacantes intentan rescatar al rehén y llevarlo a un punto de extracción.
+Los defensores deben evitarlo sin causar daño al rehén.
+Asegurar el Área:
+Los atacantes intentan capturar un área específica del mapa.
+Los defensores deben mantener la zona libre de enemigos.
+Estos modos se encuentran en partidas casuales y competitivas, cada uno con reglas que fomentan una experiencia dinámica y estratégica.
+
+----------------------------------
+El modo competitivo de Rainbow Six Siege clasifica a los jugadores según su habilidad, evaluada a través de victorias y derrotas en partidas clasificatorias. Los rangos, ordenados de menor a mayor habilidad, son:
+
+Cobre (IV-I): Principiantes que están aprendiendo las mecánicas básicas del juego.
+Bronce (IV-I): Jugadores con conocimientos limitados que aún necesitan desarrollar habilidades tácticas.
+Plata (V-I): Representa la media de jugadores, con un nivel aceptable de habilidad.
+Oro (V-I): Jugadores hábiles con buena comprensión del juego y estrategias avanzadas.
+Platino (V-I): Jugadores destacados, muy competentes en el uso de operadores y tácticas.
+Esmeralda (V-I): Nivel avanzado, con una comprensión superior de mapas y estrategia.
+Diamante (V-I): Jugadores de élite, consistentemente sobresalientes en el juego.
+Campeón: Los mejores jugadores del mundo, con un número limitado de plazas.
+Cada temporada reinicia los rangos y ofrece recompensas exclusivas según el nivel alcanzado.
+
+---------------------------------------
+Paquetes Alpha y Drops
+Los paquetes Alpha son recompensas que los jugadores pueden ganar después de cada partida. La probabilidad de recibir un paquete aumenta con cada victoria, y tras obtener uno, la probabilidad se reinicia. Estos paquetes contienen elementos cosméticos como:
+
+Skins de armas: Diseños únicos para personalizar armas.
+Amuletos: Pequeños accesorios colgantes para armas.
+Trajes para operadores: Skins completas que alteran la apariencia del personaje.
+Los elementos pueden ser comunes, raros, épicos o legendarios. Además, durante eventos especiales o colaboraciones, se añaden recompensas temáticas que solo están disponibles por tiempo limitado.
+
+---------------------------------------
+Armas y Equipamiento
+El arsenal en Rainbow Six Siege es variado y está diseñado para adaptarse a diferentes estilos de juego, con cada operador teniendo acceso a armas específicas. Entre ellas se incluyen:
+
+Fusiles de Asalto: Ideales para enfrentamientos de medio alcance. Por ejemplo, el R4-C de Ash o el AK-12 de Fuze destacan por su precisión y alta cadencia de disparo.
+Subfusiles (SMGs): Como el MP5 de Doc o el Vector .45 ACP de Mira, son excelentes para combates en espacios cerrados debido a su rápida velocidad de disparo.
+Escopetas: Ofrecen un poder destructivo enorme en combate cercano, además de ser útiles para abrir agujeros en paredes blandas y crear líneas de visión.
+Francotiradores: Aunque limitados en número, armas como el OTs-03 de Glaz permiten atacar desde la distancia con precisión letal.
+Armas secundarias: Las pistolas y escopetas compactas complementan las armas principales y son esenciales en combates rápidos.
+Además de las armas, los operadores disponen de equipamiento adicional como granadas cegadoras, explosivos de demolición y cámaras de reconocimiento que enriquecen las estrategias.
+
+----------------------------------------
+Trabajo en Equipo y Estrategia
+El éxito en Rainbow Six Siege no depende solo de la habilidad individual, sino también del trabajo en equipo. Los jugadores deben:
+
+Comunicar constantemente para compartir información sobre la ubicación del enemigo o los puntos débiles de la defensa.
+Usar drones y cámaras para obtener inteligencia antes de atacar.
+Gestionar el tiempo cuidadosamente, ya que las rondas son limitadas y cada segundo cuenta.
+Los atacantes deben coordinarse para entrar de manera efectiva, mientras que los defensores necesitan fortificar posiciones y tender emboscadas. La versatilidad y la capacidad de adaptarse al desarrollo de la partida son esenciales.

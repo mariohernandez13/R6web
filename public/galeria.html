@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
@@ -14,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <img src="../img/logo.avif" alt="imagen del logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -55,23 +57,544 @@
             </div>
         </div>
     </nav>
-    <!-- Fin Navbar -->
 
-    <!-- Inicio Galeria Agentes-->
+    <!-- explicación -->
+    <div class="container-fluid mb-3 px-4">
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="page-header text-center py-4 px-3 mb-5">
+                    <h3 class="header-title">Cuartel de Agentes Antiterroristas</h3>
+                    <div class="mx-lg-4">
+                        <p class="header-description">Explora el universo de los operadores de Rainbow Six Siege.
+                            Cada uno tiene habilidades únicas que pueden cambiar el rumbo de la batalla.
+                            ¿Cuál será tu favorito?</p>
+                        <p class="header-description">Además de Agentes y sus respectivos iconos, en esta galería podrás
+                            encontrar
+                            los diferentes mapas que se pueden jugar en Rainbow Six y algunos de los posters que
+                            anuncian el
+                            comienzo de una nueva temporada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Fin Galeria Agentes -->
+    <!-- Galeria Agentes-->
+    <main>
+
+        <div class="container-fluid galeria text-center mt-4">
+            <div class="galeria-filtro mb-3 mt-3">
+                <!-- botones de filtrado -->
+                <ul>
+                    <li class="btn btn-outline-info active" data-filer="*">Todo</li>
+                    <li class="btn btn-outline-info" data-filer=".atacantes">Atacantes</li>
+                    <li class="btn btn-outline-info" data-filer=".defensores">Defensores</li>
+                    <li class="btn btn-outline-info" data-filer=".mapa">Mapas</li>
+                    <li class="btn btn-outline-info" data-filer=".posters">Posters</li>
+                </ul>
+            </div>
+            <div class="galeria-foto row justify-content-center">
+                <!-- Sección de Agentes -->
+
+                <!-- FBI -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_thermite.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_thermite.webp" alt="Thermite">
+                    </a>
+                </div>
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_ash.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_ash.webp" alt="ash">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_thermite.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_thermite.webp" alt="pulse">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_ash.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_ash.webp" alt="castle">
+                    </a>
+                </div>
+
+                <!-- SAS -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_sledge.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_sledge.webp" alt="AtacanteSledge">
+                    </a>
+                </div>
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_thatcher.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_thatcher.webp" alt="DefensorPulse">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_mute.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_mute.webp" alt="rMute">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_smoke.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_smoke.webp" alt="SMOKE">
+                    </a>
+                </div>
+
+                <!-- SPETZNAS -->
+                <!-- <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/icon_fuze.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/icon_fuze.webp" alt="Fuze">
+                    </a>
+                </div>
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/icon_glaz.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/icon_glaz.webp" alt="Glaz">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/icon_kapkan.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/icon_kapkan.webp" alt="Kapkan">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href=" ../img/icon_tachanka.webp" class="popup-btn">
+                    <img class="img-fluid" src="../img/icon_tachanka.webp" alt="Tachanka">
+                    </a>
+                </div> -->
+
+                <!-- GSG9 -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_iq.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_iq.webp" alt="IQ">
+                    </a>
+                </div>
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_blitz.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_blitz.webp" alt="Blitz">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="BANDIT">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="JAGER">
+                    </a>
+                </div>
+
+                <!-- GIGN -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="TWITCH">
+                    </a>
+                </div>
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="MONTAGNE">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="ROOK">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="DOC">
+                    </a>
+                </div>
+
+
+                <!-- JTF7 -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_buck.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_buck.webp" alt="BUCK">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="FROST">
+                    </a>
+                </div>
+
+
+                <!-- SEAL -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_blackbeard.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_blackbeard.webp" alt="BB">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="VALK">
+                    </a>
+                </div>
+
+
+                <!-- BOPE -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_capitao.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_capitao.webp" alt="Capitao">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="CAV">
+                    </a>
+                </div>
+
+                <!-- BRITISH -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_mav.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_mav.webp" alt="MAVERICK">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="CLASH">
+                    </a>
+                </div>
+
+                <!-- KOREAN -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_dokka.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_dokka.webp" alt="DOKKA">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="VIGIL">
+                    </a>
+                </div>
+
+                <!-- ROBBER -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_flores.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_flores.webp" alt="FLORES">
+                    </a>
+                </div>
+
+                <!-- MOON -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="IANA">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="ORIX">
+                    </a>
+                </div>
+
+                <!-- ACE Y MELUSI -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_ace.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_ace.webp" alt="ace">
+                    </a>
+                </div>
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="MELUSI">
+                    </a>
+                </div>
+
+                <!-- KALI WAMANI -->
+                <div class="foto defensores col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="WAMAI">
+                    </a>
+                </div>
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_twitch.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_twitch.webp" alt="KALI">
+                    </a>
+                </div>
+
+                <!-- OSA -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_osa.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_osa.webp" alt="osa">
+                    </a>
+                </div>
+
+                <!-- SENS -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_sens.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_sens.webp" alt="SENS">
+                    </a>
+                </div>
+
+                <!-- GRIM -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_grim.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_grim.webp" alt="ram">
+                    </a>
+                </div>
+
+                <!-- BRAVA -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_brava.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_brava.webp" alt="brava">
+                    </a>
+                </div>
+
+                <!-- RAM -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_ram.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_ram.webp" alt="ram">
+                    </a>
+                </div>
+
+                <!-- DEIMOS -->
+                <div class="foto atacantes col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/ops_deimos.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/ops_deimos.webp" alt="deimos">
+                    </a>
+                </div>
+
+
+                <!-- posters -->
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/Velvet_Shell_poster.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/Velvet_Shell_poster.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/Integrantes_del_JTF.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/Integrantes_del_JTF.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_FBI_SWAT.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_FBI_SWAT.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_GIGN.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_GIGN.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_GSG_9.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_GSG_9.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_SAS.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_SAS.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_Spetsnaz_01.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_Spetsnaz_01.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_ghosteye.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_ghosteye.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_nighthaven.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_nighthaven.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_wolfguard.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_wolfguard.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_viperstrike.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_viperstrike.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_shadowleg.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_shadowleg.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_Spetsnaz_01.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_Spetsnaz_01.webp" alt="deimos">
+                    </a>
+                </div>
+                <div class="foto posters col-6 col-lg-3 col-md-4 col-sm">
+                    <a href="../img/unit_neondown.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/unit_neondown.webp" alt="deimos">
+                    </a>
+                </div>
+
+
+                <!-- mapas -->
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_avion.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_avion.webp" alt="MapaAvion">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_banco.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_banco.webp" alt="MapaBanco">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_chalet.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_chalet.webp" alt="MapaChalet">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_club.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_club.webp" alt="MapaClub">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_frontera.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_frontera.webp" alt="MapaFrontera">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_emerald.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_emerald.webp" alt="MapaEmerald">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_litoral.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_litoral.webp" alt="MapaLitoral">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_parque.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_parque.webp" alt="MapaThemeParque">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_skyscraper.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_skyscraper.webp" alt="MapaSkyscraper">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_univ.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_univ.webp" alt="MapaUniv">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/mapa_kafe.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/mapa_kafe.webp" alt="MapaKafe">
+                    </a>
+                </div>
+                <div class="foto mapa col-6 col-lg-3 col-md-4 col-sm pb-3">
+                    <a href="../img/map_villa.webp" class="popup-btn">
+                        <img class="img-fluid" src="../img/map_villa.webp" alt="MapaVilla">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
 
 
     <!-- Inicio footer -->
-    <footer>
+    <footer class="pe-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img class="img-fluid" src="../img/logoRainbow6.webp" alt="Rainbow6game">
+                </div>
 
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../index.html"
+                                class="nav-link px-2">Home</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/videojuego.html"
+                                class="nav-link px-2">videojuego</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/galeria.html"
+                                class="nav-link px-2">Galería</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="../public/formulario.html"
+                                class="nav-link px-2">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.playstation.com/es-es/" class="nav-link px-2">PlayStation</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://store.steampowered.com/?l=spanish" class="nav-link px-2">PC</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="https://www.xbox.com/es-ES"
+                                class="nav-link px-2">Xbox</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://luna.amazon.es/home" class="nav-link px-2">Amazon Luna</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.nvidia.com/es-es/geforce-now/" class="nav-link px-2">GeForce
+                                NOW</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item mx-2">
+                            <a href="https://www.instagram.com/rainbow6game/" target="_blank" class="instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A" target="_blank"
+                                class="youtube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.twitch.tv/rainbow6" target="_blank" class="twitch">
+                                <i class="bi bi-twitch"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://x.com/rainbow6game" target="_blank" class="twitter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center">© Mario Hdez, S.L. 2024/2025</p>
+        </div>
     </footer>
-    <!-- Fin footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <!-- <script src="js/script.js"></script> -->
+
+    <!-- cookie -->
+    <div class="cookie-container" id="barraaceptacion">
+        <div class="cookie-card" id="contenedor-menu">
+            <span class="title">🍪 Cookie </span>
+            <p class="description">El equipo Rainbow utiliza cookies para otrogar la mejor experiencia de navegación.
+                <a href="#"> Lea las políticas de privacidad confidenciales para conocer todos sus derechos</a>.
+            </p>
+            <div class="actions">
+                <button class="pref">
+                    Seleccione sus preferencias
+                </button>
+                <button class="btn btn-outline-info" id="botonCookie">
+                    Aceptar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="../js/galeria.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="../js/cookies.js"></script>
+    <noscript>
+        <p>Su navegador no tiene habilitada la opción de permitir ejecución de código javascript, por favor actívela para poder disfrutar de la web en tu totalidad.</p>
+    </noscript>
+
 </body>
 
 </html>

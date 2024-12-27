@@ -15,7 +15,7 @@
 
 <body>
     <!-- Inicio Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <img src="./img/logo.avif" alt="imagen del logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="./public/galeria.html">
+                        <a class="nav-link" href="./public/galeria.html">
                             <i class="bi bi-person-bounding-box"></i>
                             Galería
                         </a>
@@ -56,29 +56,333 @@
             </div>
         </div>
     </nav>
-    <!-- Fin Navbar -->
+
 
     <main>
-
-        <!-- carrusel -->
+        <section>
+            <!-- Inicio Carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner_bandos.webp" alt="imagen bandos" class="d-block w-100">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <h5>Operadores Élite</h5>
+                            <p>Forma parte de una experiencia táctica incomparable.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner_seasonITA.webp" alt="imagen italia" class="d-block w-100">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <h5>Novedades de Temporada</h5>
+                            <p>Descubre los nuevos mapas y estrategias.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner_Ram.webp" alt="imagen Ram" class="d-block w-100">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <h5>Operación Ram</h5>
+                            <p>Únete a la misión más desafiante hasta ahora.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner_sledge.webp" alt="imagen sledge" class="d-block w-100">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <h5>Mecánicas impresionantes</h5>
+                            <p>Aprende todo tipo de estrategias para aplicarlas en combate.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
 
         <!-- Inicio Introducción -->
+        <!-- explicación juego, historia, plataformas, mecánicas -->
+        <section>
+            <div class="container-fluid p-5 rounded shadow">
+                <div class="row text-center mb-5">
+                    <h2>¡Bienvenido a Rainbow Six Siege, donde la estrategia y la acción se fusionan!</h2>
+                </div>
+                <div class="row g-4">
+                    <!-- Bloque 1 -->
+                    <div class="col-md-4">
+                        <div class="feature-card text-center p-4 bg-white rounded shadow h-100">
+                            <img src="img/soldier.svg" class="feature-icon mb-3" alt="Soldado">
+                            <p class="feature-text">
+                                Sumérgete en un mundo lleno de operaciones tácticas intensas, en el que cada partida es
+                                un
+                                desafío único.
+                                Este aclamado shooter multijugador te pone al mando de operadores antiterroristas de
+                                élite,
+                                enfrentándote
+                                a situaciones de alta tensión que pondrán a prueba tu ingenio y trabajo en equipo.
+                            </p>
+                        </div>
+                    </div>
 
-        <!-- Fin Introducción -->
+                    <!-- Bloque 2 -->
+                    <div class="col-md-4">
+                        <div class="feature-card text-center p-4 bg-white rounded shadow h-100">
+                            <img src="img/fight.svg" class="feature-icon mb-3" alt="Combate">
+                            <p class="feature-text">
+                                Desde intensos enfrentamientos en espacios cerrados hasta complejas estrategias para
+                                asegurar objetivos,
+                                Rainbow Six Siege redefine el combate táctico. Prepárate para planificar, improvisar y
+                                superar a tus enemigos
+                                en este emocionante campo de batalla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque 3 -->
+                    <div class="col-md-4">
+                        <div class="feature-card text-center p-4 bg-white rounded shadow h-100">
+                            <img src="img/trophy.svg" class="feature-icon mb-3" alt="Trofeo">
+                            <p class="feature-text">
+                                ¿Estás listo para explorar el universo de Siege? ¡Descubre más sobre el juego, sus
+                                operadores, mapas,
+                                gameplay y la comunidad que lo ha convertido en un fenómeno global!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inicio Novedades -->
+        <section>
+            <div class="container-fluid py-4">
+                <div class="row text-center mb-4">
+                    <h2>¡Descubre las últimas novedades de Rainbow Six Siege!</h2>
+                </div>
+                <div class="row g-4">
+                    <!-- Card Grande -->
+                    <div class="col-md-6">
+                        <div class="card main-card border-0 shadow">
+                            <img src="./img/battlePass.webp" class="card-img-top" alt="BattlePass">
+                            <div class="card-body">
+                                <h5 class="card-title">Battle Pass: Nueva Temporada</h5>
+                                <p class="card-text">Sumérgete en la nueva temporada con el Battle Pass, repleto de
+                                    desafíos únicos y recompensas exclusivas. Desbloquea skins, armas y mucho más
+                                    mientras exploras nuevos mapas y perfeccionas tus tácticas en cada misión.</p>
+                                <a href="https://www.ubisoft.com/es-es/game/rainbow-six/siege/shop/battlepass"
+                                    class="btn btn-outline-light">Comprar ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 Cards Pequeñas -->
+                    <div class="col-md-6">
+                        <div class="row g-4">
+                            <!-- Card 1 -->
+                            <div class="col-md-12">
+                                <div class="card card-horizontal border-0 shadow">
+                                    <img src="./img/protection.webp" class="card-img-top" alt="Nueva Temporada">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Protección de Élite</h5>
+                                        <p class="card-text">Desde el equipo de Rainbow se transmiten valores como el
+                                            respeto y esfuerzo, que hacen mejorar a nuestros jugadores y evitar trampas
+                                            o comportamientos perjudiciales.</p>
+                                        <a href="https://www.ubisoft.com/es-es/game/rainbow-six/siege/news-updates/player-protection"
+                                            class="btn btn-outline-light">Más
+                                            Información</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-md-12">
+                                <div class="card card-horizontal border-0 shadow">
+                                    <img src="./img/parche.webp" class="card-img-top" alt="Evento Especial">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Notas del Parche</h5>
+                                        <p class="card-text">Echa un vistazo a las últimas actualizaciones: mejoras de
+                                            balance, nuevas características y correcciones que hacen de cada partida una
+                                            experiencia más emocionante y competitiva.</p>
+                                        <a href="https://www.ubisoft.com/es-es/game/rainbow-six/siege/news-updates/NFdKlD7aNKI9a98ICe8oq/y9s41-patch-notes"
+                                            class="btn btn-outline-light">Ver notas</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-md-12">
+                                <div class="card card-horizontal border-0 shadow">
+                                    <img src="./img/paquete.webp" class="card-img-top" alt="Evento Especial">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Paquete de Recompensas</h5>
+                                        <p class="card-text">Obtén el nuevo paquete especial lleno de sorpresas
+                                            exclusivas. Personaliza a tus operadores y equipa a tu equipo con las
+                                            herramientas más avanzadas del juego.</p>
+                                        <a href="https://www.ubisoft.com/es-es/game/rainbow-six/siege/news-updates/1T6yWQHcJZvPFpO6QaQjAG/holiday-pack-2024"
+                                            class="btn btn-outline-light">Ver
+                                            recompensas</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
+        <section class="bando-section position-relative">
+            <!-- Video de fondo -->
+            <video class="background-video" src="./img/loop_sledge.mp4" autoplay muted loop></video>
+
+            <!-- Contenido superpuesto -->
+
+            <div class="content-overlay container-fluid text-center text-white">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-4">¡Elige tu bando!</h2>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <!-- Card Atacantes -->
+                    <div class="col-md-4">
+                        <div class="card bando-card h-100 border-0 shadow">
+                            <a href="./public/galeria.html">
+                                <img src="img/atacantes.webp" class="card-img-top" alt="Atacantes">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">ATACANTES</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Defensores -->
+                    <div class="col-md-4">
+                        <div class="card bando-card h-100 border-0 shadow">
+                            <a href="./public/galeria.html">
+                                <img src="img/defensores.webp" class="card-img-top" alt="Defensores">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">DEFENSORES</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+
     <!-- Inicio footer -->
-    <footer>
+    <footer class="pe-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img class="img-fluid" src="./img/logoRainbow6.webp" alt="Rainbow6game">
+                </div>
 
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="./index.html"
+                                class="nav-link px-2">Home</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="./public/videojuego.html"
+                                class="nav-link px-2">videojuego</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="./public/galeria.html"
+                                class="nav-link px-2">Galería</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="./public/formulario.html"
+                                class="nav-link px-2">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.playstation.com/es-es/" class="nav-link px-2">PlayStation</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://store.steampowered.com/?l=spanish" class="nav-link px-2">PC</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25" href="https://www.xbox.com/es-ES"
+                                class="nav-link px-2">Xbox</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://luna.amazon.es/home" class="nav-link px-2">Amazon Luna</a></li>
+                        <li><a class="text-light text-decoration-none text-opacity-25"
+                                href="https://www.nvidia.com/es-es/geforce-now/" class="nav-link px-2">GeForce NOW</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3 text-center">
+                    <h6>Plataformas</h6>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item mx-2">
+                            <a href="https://www.instagram.com/rainbow6game/" target="_blank" class="instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A" target="_blank"
+                                class="youtube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://www.twitch.tv/rainbow6" target="_blank" class="twitch">
+                                <i class="bi bi-twitch"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="https://x.com/rainbow6game" target="_blank" class="twitter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center">© Mario Hdez, S.L. 2024/2025</p>
+        </div>
     </footer>
-    <!-- Fin footer -->
 
+
+    <!-- cookie -->
+    <div class="cookie-container" id="barraaceptacion">
+        <div class="cookie-card" id="contenedor-menu">
+            <span class="title">🍪 Cookie </span>
+            <p class="description">El equipo Rainbow utiliza cookies para otrogar la mejor experiencia de navegación.
+                <a href="#"> Lea las políticas de privacidad confidenciales para conocer todos sus derechos</a>.
+            </p>
+            <div class="actions">
+                <button class="pref">
+                    Seleccione sus preferencias
+                </button>
+                <button class="btn btn-outline-info" id="botonCookie">
+                    Aceptar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- <script src="js/script.js"></script> -->
-</body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/cookies.js"></script>
+    <noscript>
+        <p>Su navegador no tiene habilitada la opción de permitir ejecución de código javascript, por favor actívela para poder disfrutar de la web en tu totalidad.</p>
+    </noscript>
 
+</body>
 </html>
