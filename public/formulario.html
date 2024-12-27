@@ -85,7 +85,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 align-content-center header-description">
+            <div class="col-md-6 align-content-center header-description wow animate__animated animate__fadeInLeft">
                 <!-- Descripción -->
                 <p>Hola ! soy Mario, estudiante de ingeniería informática. Me considero una persona apasionada
                     por los videojuegos, especialmente por Rainbow Six Siege, también disfruto mantenerme activo
@@ -101,7 +101,7 @@
                     activa y siempre buscando aprender algo nuevo.</p>
             </div>
 
-            <div class="col-md-6 p-4 text-center">
+            <div class="col-md-6 p-4 text-center wow animate__animated animate__fadeInRight">
                 <!-- Imagen -->
                 <img src="../img/fotoMario.webp" alt="foto de Marito" class="img-fluid h-100">
             </div>
@@ -110,7 +110,7 @@
     </div>
 
     <!-- Formulario en card -->
-    <div class="container cardForm mx-auto pb-2 ">
+    <div class="container cardForm mx-auto pb-2 wow animate__animated animate__fadeInUp">
         <div class="card-title text-center pt-3 mt-3">
             <h3>Formumlario de contacto</h3>
         </div>
@@ -180,7 +180,7 @@
     </div>
 
     <!-- Album quevedo -->
-    <div class="container col col-12 text-center pt-4 mb-5">
+    <div class="container col col-12 text-center pt-4 mb-5 wow animate__animated animate__rollIn">
         <h4>Aquí tiene el último album de Quevedo, por si quiere escuchar alguno de sus nuevos temas </h4>
         <iframe style="border-radius:12px"
             src="https://open.spotify.com/embed/album/3V2ApPxUSquOkjLQU3wmjh?utm_source=generator" width="100%"
@@ -189,7 +189,7 @@
     </div>
 
     <!-- Xmans Plugin -->
-    <div class="container col col-12 text-center pt-4">
+    <div class="container col col-12 text-center pt-4 wow animate__animated animate__fadeInUp">
         <h4>Por último, el equipo de Rainbow tiene un pequeño regalo, especialmente en estas fechas...</h4>
         <div class="bg-light">
             <iframe class="container" width="1em" height="600em"
@@ -271,7 +271,7 @@
     </footer>
 
     <!-- cookie -->
-    <div class="cookie-container" id="barraaceptacion">
+    <!-- <div class="cookie-container" id="barraaceptacion">
         <div class="cookie-card" id="contenedor-menu">
             <span class="title">🍪 Cookie </span>
             <p class="description">El equipo Rainbow utiliza cookies para otrogar la mejor experiencia de navegación.
@@ -286,12 +286,16 @@
                 </button>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script type="text/javascript" src="../js/cookies.js"></script>
     <script type="text/javascript" src="../js/form.js"></script>
 

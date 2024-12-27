@@ -59,7 +59,7 @@
 
 
 
-    <!-- explicación Gameplay, armas, proleague... -->
+    <!-- explicación Gameplay, armas... -->
     <div class="container-fluid mb-3 px-4">
         <div class="row mt-4">
             <div class="col-12">
@@ -81,26 +81,28 @@
 
 
     <main>
-
         <!-- Cards Rankeds -->
         <section>
-            <div class="text-center mt-5">
-                <div class="row">
-                    <h3>Estadísticas y Rangos Competitivos</h3>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6 mx-auto">
-                        <ul class="list-unstyled header-description">
-                            <li>Progresión: Los puntos de MMR ganados o perdidos dependen del desempeño individual y del
-                                equipo
-                                contrario.</li>
-                            <li>Distribución Global: Aproximadamente un 60% de los jugadores se encuentran entre Plata y
-                                Oro.
-                            </li>
-                            <li>Reinicios de Temporada: Al final de cada temporada, los rangos se reinician parcialmente
+            <div class="container">
+                <div class="text-center mt-5">
+                    <div class="row">
+                        <h1>Estadísticas y Rangos Competitivos</h1>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mx-auto header-description">
+                            <p>Progresión: Los puntos de MMR ganados o perdidos dependen del desempeño individual y
+                                del equipo
+                                contrario.
+                            </p>
+                            <p>Distribución Global: Aproximadamente un 60% de los jugadores se encuentran entre
+                                Plata y
+                                Oro.</p>
+                            <p>Reinicios de Temporada: Al final de cada temporada, los rangos se reinician
+                                parcialmente
                                 para
-                                reflejar el progreso y recibir las recompensas del rango alcanzado.</li>
-                        </ul>
+                                reflejar el progreso y recibir las recompensas del rango alcanzado.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,7 +196,7 @@
 
         <!-- Explicación mapas -->
         <section class="timeline">
-            <div class="timeline-item">
+            <div class="timeline-item wow animate__animated animate__fadeInUp">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h3>Destrucción del Entorno</h3>
@@ -205,7 +207,7 @@
                     <img src="../img/breach.webp" alt="pared destruida" class="img-fluid">
                 </div>
             </div>
-            <div class="timeline-item">
+            <div class="timeline-item wow animate__animated animate__fadeInUp">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h3>Armas y Equipamiento</h3>
@@ -228,7 +230,7 @@
                     <img src="../img/arma.webp" alt="armamento" class="img-fluid">
                 </div>
             </div>
-            <div class="timeline-item">
+            <div class="timeline-item wow animate__animated animate__fadeInUp">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h3>Modos de Juego</h3>
@@ -243,7 +245,7 @@
                     <img src="../img/gamemodes.webp" alt="modos de juego" class="img-fluid">
                 </div>
             </div>
-            <div class="timeline-item">
+            <div class="timeline-item wow animate__animated animate__fadeInUp">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h3>Rondas</h3>
@@ -261,7 +263,7 @@
                     <img src="../img/sedax.webp" alt="sedax" class="img-fluid">
                 </div>
             </div>
-            <div class="timeline-item">
+            <div class="timeline-item wow animate__animated animate__fadeInUp">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h3>Paquetes Alpha y Drops</h3>
@@ -360,7 +362,8 @@
         </div>
     </div>
 
-    <div class="cookie-container" id="barraaceptacion">
+    <!-- cookie -->
+    <!-- <div class="cookie-container" id="barraaceptacion">
         <div class="cookie-card" id="contenedor-menu">
             <span class="title">🍪 Cookie </span>
             <p class="description">El equipo Rainbow utiliza cookies para otrogar la mejor experiencia de navegación.
@@ -375,7 +378,7 @@
                 </button>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Inicio footer -->
@@ -452,6 +455,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script type="text/javascript" src="../js/cookies.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
     <noscript>
