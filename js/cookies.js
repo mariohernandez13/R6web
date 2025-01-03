@@ -24,7 +24,7 @@ function eraseCookie(name) {
 
 function leerCookie() {
   if (getCookie('aceptar_cookie') != '1') {
-    document.getElementById('barraaceptacion').style.display = 'block';
+    // document.getElementById('barraaceptacion').style.display = 'block';
   }
   else {
     document.getElementById('barraaceptacion').style.display = 'none';

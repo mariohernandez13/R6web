@@ -427,13 +427,12 @@ h2 {
 
 .timeline-content h3 {
     margin: 0 0 10px;
-    font-size: 22px;
     color: #f39c12;
 }
 
 .timeline-content p {
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 1.2em;
 }
 
 /* Hover effect */
