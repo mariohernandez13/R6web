@@ -1,7 +1,0 @@
-
-juego: explicar mecánicas, gameplay, rankeds, armas... (mejorar)
-
-Galeria: decargar todas las fotos personajes, iconos y display galeria
-
-
-animaciones scroll (wow) libreria
